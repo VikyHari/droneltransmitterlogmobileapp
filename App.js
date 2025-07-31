@@ -42,7 +42,7 @@ export default function App() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <Text style={{ fontSize: 18, marginBottom: 10 }}>
-        Connected to: {connectedDevice ? connectedDevice.name : 'Scanning...'}
+        Connected to: hi {connectedDevice ? connectedDevice.name : 'Scanning...'}
       </Text>
       <Text style={{ fontSize: 16 }}>{message || 'Waiting for heartbeat...'}</Text>
     </View>
